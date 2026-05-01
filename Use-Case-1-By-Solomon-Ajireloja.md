@@ -73,13 +73,13 @@ Safe Links was selected as the primary control because:
 
 ## Step‑by‑Step Guide: Implementing a Safe Links Policy in Microsoft Defender for Office 365
 
-Step 1: Access the Microsoft 365 Defender Portal
+## Step 1: Access the Microsoft 365 Defender Portal
 
 Configuration portal can be access on Microsoft Defender portal:
 https://security.microsoft.com 
 The Microsoft Defender portal is the centralized management hub for email and collaboration threat protection policies. 
 
-Step 2: Navigate to Safe Links Policies
+## Step 2: Navigate to Safe Links Policies
 
 In the left navigation pane, select:
 Email & Collaboration and follow the path to safe links
@@ -87,17 +87,17 @@ Email & Collaboration and follow the path to safe links
 # Navigation Path: 
 Microsoft 365 Defender --> Email & Collaboration --> Policies & Rules --> Threat Policies --> Safe Links
 
-Step 3: Create a New Safe Links Policy
+## Step 3: Create a New Safe Links Policy
 
 On the Safe Links page, click Create or + sign to create
 Descriptive policy name:
 Contoso – Safe Links Protection Policy
 
 
-Description:
+## Description:
 Protection against phishing and malicious links.
 
-Step 4: Configure Safe Links Protection Settings
+## Step 4: Configure Safe Links Protection Settings
 On the Settings page, configure the following options:
 
 ✅ Turn on Safe Links
@@ -116,26 +116,20 @@ On the Settings page, configure the following options:
 ❌ Do not allow users to click through malicious link warnings
 
 
-These settings ensure that users are blocked from accessing malicious destinations and cannot bypass Microsoft warning pages.
+# These settings ensure that users are blocked from accessing malicious destinations and cannot bypass Microsoft warning pages.
 
 
-Step 5: Notification
+## Step 5: Notification
 
-Step 6: Review and Submit the Policy
+## Step 6: Review and Submit the Policy
 
-Review all configured settings
-Confirm:
-
-URL rewriting enabled
-Time‑of‑click protection enabled
-Correct users/groups selected
-
+Review all configured settings and Confirm!
 
 Policy Submtted
 
-Step 8: Test and Validate Safe Links Functionality
+## Monitoring the Implementation Acticities
 
-Step 9: Monitor Safe Links Activity
+## Step 9: Monitor Safe Links Activity
 Using Defender Explorer
 
 Navigate to:
