@@ -84,6 +84,10 @@ The Microsoft Defender portal is the centralized management hub for email and co
 In the left navigation pane, select:
 Email & Collaboration and follow the path to safe links
 
+
+<img width="1889" height="912" alt="1" src="https://github.com/user-attachments/assets/47ffda63-fe67-490d-98b4-d0e7c5c64461" />
+_Figure 1: Safe Link Policies Page_
+
 # Navigation Path: 
 Microsoft 365 Defender --> Email & Collaboration --> Policies & Rules --> Threat Policies --> Safe Links
 
