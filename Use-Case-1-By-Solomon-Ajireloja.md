@@ -106,9 +106,11 @@ Protection against phishing and malicious links.
 
 <img width="1889" height="912" alt="1" src="https://github.com/user-attachments/assets/0aea9a09-8f36-47d9-a22b-64b20cc07e59" />
 
+                                      Fig 3: Description Page 1
+     
 <img width="1911" height="915" alt="2" src="https://github.com/user-attachments/assets/17fecfa5-1096-45c9-a987-904c865dc8b1" />
 
-
+                                      Fig 4: Description Page 2
 
 ## Step 4: Configure Safe Links Protection Settings
 On the Settings page, configure the following options:
@@ -130,6 +132,7 @@ On the Settings page, configure the following options:
 
 <img width="1919" height="910" alt="3" src="https://github.com/user-attachments/assets/64c887cd-f46b-417f-8924-575e9ee6f5f0" />
 
+                                        Fig 5: Safe Link Protection Page
 
 # These settings ensure that users are blocked from accessing malicious destinations and cannot bypass Microsoft warning pages.
 
@@ -138,6 +141,7 @@ On the Settings page, configure the following options:
 
 <img width="1913" height="908" alt="4" src="https://github.com/user-attachments/assets/9f7f92e7-c8d7-472b-b37b-ee6d1b4f9af4" />
 
+                                         Fig 6: Notification Page
 
 ## Step 6: Review and Submit the Policy
 
@@ -145,14 +149,18 @@ Review all configured settings and Confirm!
 
 <img width="1894" height="911" alt="5a" src="https://github.com/user-attachments/assets/05a34781-1e0c-43ec-b7e5-d45038afb146" />
 
+                                        Fig 7: Review and Submission Page 1
 
 <img width="1919" height="915" alt="5b" src="https://github.com/user-attachments/assets/05154f8f-3ebf-4e60-bbf2-f803a4605d62" />
+
+                                        Fig 8: Review and Submission Page 2
 
 Policy Submtted
 
 <img width="1919" height="907" alt="6" src="https://github.com/user-attachments/assets/88ad22e6-cbbe-4743-84ab-a18ee413461b" />
 
-
+                                        Fig 9: Submitted Page
+    
 ## Monitoring the Implementation Acticities
 
 ## Step 9: Monitor Safe Links Activity
@@ -160,6 +168,8 @@ Using Defender Explorer
 
 <img width="1914" height="914" alt="Explore" src="https://github.com/user-attachments/assets/d3ad4e7a-3e16-4cb4-b834-c34c7631bb55" />
 
+                                         Fig 10: Monitoring Page
+  
 Navigate to:
 Email & Collaboration → Explorer
 
