@@ -1,124 +1,84 @@
 
-# Use Case 1 - Mitigating Fraudulent Emails at Contoso
+# Mitigating Fraudulent Emails at Contoso  
+**Focus Area: Microsoft Defender for Office 365 – Safe Links**
+
+---
 
 ## Author
-**Name:** Ajireloja Solomon Idowu  
+**Name:** Solomon Ajireloja  
 **Role:** Security Analyst  
-**Organization (Case Study):** Contoso  
-**Date:** 30th April, 2026
-
-## Program
-Platform Explorers - Cybersecurity Cohort 2
+**Case Study Organization:** Contoso  
 
 ---
 
-## Project Overview
+## Executive Summary
 
-Contoso is a mid-sized organization with approximately 300 users across the United States and Western Europe. The company has been experiencing an increased volume of **fraudulent and phishing emails** being delivered to user mailboxes, creating a risk of credential theft, business email compromise (BEC), and potential data breaches.
+Contoso is a mid-sized organization with approximately 300 users located across the United States and Western Europe. The organization has experienced an increase in fraudulent and phishing emails successfully reaching end users’ mailboxes. These emails pose a serious risk, including credential theft, business email compromise (BEC), and potential financial loss.
 
-This project documents the **analysis, recommended solution, and configuration steps** implemented to mitigate fraudulent emails using **Microsoft 365 security controls**, with a strong focus on protecting **VIP users** such as the CEO, CFO, and CISO.
-
----
-
-## Objectives
-
-- Reduce the delivery of phishing and fraudulent emails to users
-- Protect high‑risk and VIP accounts from impersonation attacks
-- Implement Microsoft’s email security best practices
-- Pilot new security policies before full deployment
-- Document configuration steps with screenshots and explanations
+This project documents the assessment, design, and implementation of a security solution using **Microsoft Defender for Office 365**, with a primary focus on **Safe Links**, a feature that protects users from malicious URLs through real-time, time-of-click inspection.
 
 ---
 
-## Company Environment
+## Organization Overview
 
-| Item | Details |
-|----|----|
-| Number of Users | ~300 |
-| Regions | United States, Western Europe |
+| Category | Details |
+|--------|--------|
+| User Count | ~300 users |
+| Locations | United States, Western Europe |
 | Email Platform | Microsoft 365 |
-| Risk Focus | Phishing, spoofing, impersonation, BEC |
-| Email Protection | Microsoft Defender for Office 365 |
-
-
----
-
-## Security Features Implemented
-
-### 1. Anti‑Phishing & Impersonation Protection
-- Enabled user impersonation protection for VIP accounts
-- Enabled domain impersonation protection
-- Configured mailbox intelligence
-- High‑confidence phishing messages are quarantined
-
-📸 Screenshot: `screenshots/anti-phishing-vip-policy.png`
+| Primary Risk | Phishing emails with malicious links |
+| High-Risk Users | CEO, CFO, CISO |
 
 ---
 
-### 2. Preset Security Policies
-- **Standard Protection** assigned to pilot users
-- **Strict Protection** assigned to executives and high‑risk users
+## Problem Statement
 
-📸 Screenshot: `screenshots/preset-security-policies.png`
+Contoso’s existing email security controls were insufficient to prevent phishing emails containing malicious URLs from being delivered to users. Many modern phishing attacks rely on links that appear legitimate at delivery but later redirect users to credential-harvesting or malware-hosting websites.
 
----
-
-### 3. Safe Links
-- Enabled URL rewriting
-- Time‑of‑click malicious link detection
-- Enabled for Email, Teams, and Office applications
-
-📸 Screenshot: `screenshots/safe-links-policy.png`
+Because of this, the organization required a solution that could identify and block malicious links **at the time a user clicks them**, rather than only during mail delivery.
 
 ---
 
-### 4. Safe Attachments
-- Enabled Safe Attachments for email
-- Dynamic delivery enabled
-- Malicious attachments blocked after detonation
+## Licensing Recommendation
 
-📸 Screenshot: `screenshots/safe-attachments-policy.png`
+**Recommended License:**
+- Microsoft Defender for Office 365 Plan 2 (Add-on)  
+  **OR**
+- Microsoft 365 E5
 
----
-
-## 🧪 Pilot Deployment Strategy
-
-Before tenant‑wide deployment, security policies were tested on a **pilot group** to reduce the risk of false positives and business disruption.
-
-### Deployment Phases
-1. **Pilot Group:** IT & Security users (10–15 users)
-2. **VIP Users:** CEO, CFO, and CISO protected with Strict policies
-3. **Full Rollout:** All users after successful testing period
+**Justification:**
+Defender for Office 365 Plan 2 provides advanced phishing protection features such as Safe Links, Safe Attachments, impersonation protection, and enhanced reporting capabilities not available in basic Exchange Online Protection.
 
 ---
 
-## 👑 VIP User Protection
+## Why Safe Links Was Selected
 
-High‑value accounts were given enhanced protection using:
-- Strict preset policies
-- Dedicated anti‑phishing policy
-- Safe Links and Safe Attachments
-- Mandatory multifactor authentication (MFA)
+Safe Links was selected as the primary control because:
+- Most phishing attacks rely on malicious URLs
+- URLs can become malicious after email delivery
+- Executives are common targets of credential-harvesting attacks
+- Safe Links provides real-time, time-of-click protection
 
-This significantly reduces the likelihood of **whaling and BEC attacks**.
-
----
-
-## 📊 Mail Flow & Threat Reporting
-
-### Reporting Tools Used
-- **Threat Protection Status Report**
-- **Microsoft Defender Explorer**
-- Email threat trends dashboard
-
-### Metrics Shared with Stakeholders
-- Number of phishing emails detected
-- Reduction in inbox‑delivered threats
-- Top attack types (impersonation, malicious links)
-- User‑reported phishing trends
-
-📸 Screenshot: `screenshots/mail-flow-reports.png`
+Safe Links inspects URLs dynamically when users attempt to access them, blocking access to malicious destinations even if the link was previously considered safe.
 
 ---
 
-## 📁 Repository Structure
+## Safe Links Overview
+
+Safe Links provides:
+- URL rewriting during mail flow
+- Time-of-click URL inspection
+- Protection across Email, Microsoft Teams, and Office apps
+- Microsoft warning pages for blocked links
+
+This ensures continuous protection against evolving phishing threats.
+
+---
+
+## Safe Links Policy Configuration
+
+**Portal Used:**  
+https://security.microsoft.com
+
+### Navigation Path
+``
