@@ -38,6 +38,18 @@ Contoso’s existing email security controls were insufficient to prevent phishi
 Because of this, the organization required a solution that could identify and block malicious links **at the time a user clicks them**, rather than only during mail delivery.
 
 ---
+## Objectives
+
+- Reduce the delivery of fraudulent and phishing emails containing malicious links to end users within Contoso.
+- Implement Microsoft Defender for Office 365 Safe Links to provide real‑time, time‑of‑click URL protection against evolving phishing threats.
+- Protect high‑risk and VIP users (CEO, CFO, CISO) from credential‑harvesting and business email compromise (BEC) attacks.
+- Test new security controls using a pilot deployment approach before applying them organization‑wide to minimize user disruption.
+- Improve visibility into email‑borne threats through monitoring, reporting, and investigation tools in Microsoft Defender.
+- Demonstrate effective security control configuration by documenting policy settings and decisions with supporting screenshots.
+- Align Contoso’s email security posture with Microsoft best practices for phishing prevention and user protection.
+- Provide measurable security outcomes that can be communicated to technical and non‑technical stakeholders.
+
+---
 
 ## Licensing Recommendation
 
@@ -59,26 +71,89 @@ Safe Links was selected as the primary control because:
 - Executives are common targets of credential-harvesting attacks
 - Safe Links provides real-time, time-of-click protection
 
-Safe Links inspects URLs dynamically when users attempt to access them, blocking access to malicious destinations even if the link was previously considered safe.
+## Step‑by‑Step Guide: Implementing a Safe Links Policy in Microsoft Defender for Office 365
 
----
+Step 1: Access the Microsoft 365 Defender Portal
 
-## Safe Links Overview
+Configuration portal can be access on Microsoft Defender portal:
+https://security.microsoft.com 
+The Microsoft Defender portal is the centralized management hub for email and collaboration threat protection policies. 
 
-Safe Links provides:
-- URL rewriting during mail flow
-- Time-of-click URL inspection
-- Protection across Email, Microsoft Teams, and Office apps
-- Microsoft warning pages for blocked links
+Step 2: Navigate to Safe Links Policies
 
-This ensures continuous protection against evolving phishing threats.
+In the left navigation pane, select:
+Email & Collaboration and follow the path to safe links
 
----
+# Navigation Path: 
+Microsoft 365 Defender --> Email & Collaboration --> Policies & Rules --> Threat Policies --> Safe Links
 
-## Safe Links Policy Configuration
+Step 3: Create a New Safe Links Policy
 
-**Portal Used:**  
-https://security.microsoft.com
+On the Safe Links page, click Create or + sign to create
+Descriptive policy name:
+Contoso – Safe Links Protection Policy
 
-### Navigation Path
-``
+
+Description:
+Protection against phishing and malicious links.
+
+Step 4: Configure Safe Links Protection Settings
+On the Settings page, configure the following options:
+
+✅ Turn on Safe Links
+✅ Rewrite URLs
+(Ensures links are scanned when the user clicks them)
+✅ Enable time‑of‑click protection
+✅ Apply Safe Links to email messages
+✅ Apply Safe Links to Microsoft Teams
+✅ Apply Safe Links to Office desktop and web apps
+❌ Do not allow users to click through malicious link warnings
+
+These settings ensure that users are blocked from accessing malicious destinations and cannot bypass Microsoft warning pages.
+
+Step 5: Notification
+
+Step 6: Review and Submit the Policy
+
+Review all configured settings
+Confirm:
+
+URL rewriting enabled
+Time‑of‑click protection enabled
+Correct users/groups selected
+
+
+Policy Submtted
+
+Step 8: Test and Validate Safe Links Functionality
+
+Step 9: Monitor Safe Links Activity
+Using Defender Explorer
+
+Navigate to:
+Email & Collaboration → Explorer
+
+
+Filter by:
+
+URL click events
+Phish detections
+
+
+Review blocked messages and user activity
+
+Step 10: Roll Out to All Users
+After a successful pilot period (7–14 days):
+
+Edit the Safe Links policy
+Expand the scope to:
+All users
+
+
+Save changes
+
+This ensures consistent protection across the organization while minimizing risk during deployment.
+ ---
+ 
+## Conclusion
+The project successfully showed that implementing Microsoft Defender for Office 365 Safe Links effectively reduces phishing risk by blocking malicious URLs at the time of click. Through pilot testing and prioritizing VIP users, Contoso improved email security with minimal disruption, gained better visibility into threats, and strengthened its overall protection against credential theft and business email compromise.
