@@ -101,15 +101,23 @@ Step 4: Configure Safe Links Protection Settings
 On the Settings page, configure the following options:
 
 ✅ Turn on Safe Links
+
 ✅ Rewrite URLs
 (Ensures links are scanned when the user clicks them)
+
 ✅ Enable time‑of‑click protection
+
 ✅ Apply Safe Links to email messages
+
 ✅ Apply Safe Links to Microsoft Teams
+
 ✅ Apply Safe Links to Office desktop and web apps
+
 ❌ Do not allow users to click through malicious link warnings
 
+
 These settings ensure that users are blocked from accessing malicious destinations and cannot bypass Microsoft warning pages.
+
 
 Step 5: Notification
 
