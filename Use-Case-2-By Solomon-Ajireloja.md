@@ -1,4 +1,50 @@
-## 🧪 Lab Implementation Guide: Microsoft Purview for Finance Data Protection
+# Use Case 2: Protecting Finance Department Data and Information from Unauthorized Access and Data Breaches
+## Microsoft Solution: Microsoft 365 Purview ( Under "Information Protection" & "DLP")  
+
+## Author
+**Analyst Name:** Solomon Idowu, Ajireloja  
+**Program:** Platform Explorers – Cybersecurity  
+**Date:** 15th of May, 2026 
+
+
+##  Overview
+This use case outlines how an organization can implement **Microsoft Purview Sensitivity Labels and Data Loss Prevention (DLP)** to protect sensitive financial data within the finance department.
+
+The primary objective is to:
+- Automatically classify and label sensitive financial information  
+- Prevent unauthorized sharing of financial data  
+- Restrict the use of sensitive data with AI tools such as **Microsoft 365 Copilot**  
+
+---
+
+##  Detailed Use Case
+
+The Finance Department processes highly confidential information, including:
+- Personal Identifiable Information (PII)  
+- Financial records  
+- Corporate financial data and intellectual property  
+
+This data is critical to the organization and must be protected from:
+- Unauthorized internal access  
+- External data leaks  
+- Accidental sharing via email or collaboration tools  
+- Exposure through AI tools like Microsoft 365 Copilot  
+
+To mitigate these risks, the organization will implement **Microsoft Purview Information Protection and DLP policies**.
+
+---
+
+##  Requirements & Implementation
+
+### Sensitive Information Type (SIT)
+
+Create custom Sensitive Information Types (SITs) to detect financial data patterns.
+
+#### Examples:
+- Croatian Bank Account Number  
+- Nigerian Bank Verification Number (BVN)  
+
+## Step‑by‑Step Implementation Guide: Microsoft Purview for Finance Data and Information Protection
 
 ### ✅ Step 1: Access Microsoft Purview Portal
 - Navigate to: https://compliance.microsoft.com
