@@ -1,4 +1,4 @@
-<img width="1908" height="902" alt="Label portal" src="https://github.com/user-attachments/assets/825c26f1-b12d-4119-9696-1e15386d97ac" /># Use Case 2: Protecting Finance Department Data and Information from Unauthorized Access and Data Breaches
+# Use Case 2: Protecting Finance Department Data and Information from Unauthorized Access and Data Breaches
 ## Microsoft Solution: Microsoft 365 Purview ( Under "Information Protection" & "DLP")  
 
 ## Author
