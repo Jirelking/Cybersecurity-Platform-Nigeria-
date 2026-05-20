@@ -49,25 +49,34 @@ Create custom Sensitive Information Types (SITs) to detect financial data patter
 ### ✅ Step 1: Access Microsoft Purview Portal
 - Navigate to: https://compliance.microsoft.com
 - Log in with admin credentials
-
-📸 Screenshot 1: Purview Dashboard Homepage
+<img width="1912" height="915" alt="Login Page" src="https://github.com/user-attachments/assets/132fa142-b435-4ce0-96fe-2dfc4c677c1a" />
 
 ---
 
 ### ✅ Step 2: Create Custom Sensitive Information Type (SIT)
 
-1. Go to **Data Classification → Sensitive Info Types**
-2. Click **+ Create Sensitive Info Type**
-3. Enter:
-   - Name: "Finance Sensitive Data"
-4. Configure detection:
-   - Add patterns (Regex for BVN, Bank Account Number)
-   - Add keywords (e.g., "BVN", "Account Number")
+1. Navigate as follows:  **Data Classification → Sensitive Info Types**
+2. <img width="1917" height="904" alt="SIT Portal" src="https://github.com/user-attachments/assets/2638fbc2-48bb-4924-8c0c-91587894714c" />
 
-5. Save and test using sample data file
+3. Click **+ Create Sensitive Info Type**
+4.  <img width="1914" height="916" alt="SIT Name Decription" src="https://github.com/user-attachments/assets/c6bbf38b-5d8c-4f1d-b99b-fd21da2a1981" />
 
-📸 Screenshot 2: Custom SIT Creation Page  
-📸 Screenshot 3: SIT Pattern Configuration  
+5. Enter The Name: "Finance Sensitive Data"
+6. Configure detection:  - Add patterns 1  & Add keywords
+<img width="1916" height="906" alt="Pattern 1" src="https://github.com/user-attachments/assets/07d59590-31cb-4418-ae31-876e0c3fbd13" />
+
+7. 
+8. Configure detection:  - Add patterns 2  & Add keywords 
+<img width="1910" height="908" alt="Pattern 2" src="https://github.com/user-attachments/assets/d38c44b7-da01-4f25-ab0f-937221260fb0" />
+
+<img width="1913" height="905" alt="Pattern" src="https://github.com/user-attachments/assets/1f4875bb-e625-4f7e-97d4-58bf4ff270d9" />
+
+Recommended C
+<img width="1919" height="925" alt="Recommend Page" src="https://github.com/user-attachments/assets/f0700c00-0b4b-46bf-ada6-84b48a8b4141" />
+
+SIT Successfully Created
+<img width="1912" height="918" alt="SIT Cretaed Successfully" src="https://github.com/user-attachments/assets/270b62f6-b11f-41a6-b6cb-7be46e793238" />
+
 📸 Screenshot 4: SIT Testing Results  
 
 ---
