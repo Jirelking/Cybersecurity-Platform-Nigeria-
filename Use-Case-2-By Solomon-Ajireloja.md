@@ -1,4 +1,4 @@
-# Use Case 2: Protecting Finance Department Data and Information from Unauthorized Access and Data Breaches
+<img width="1908" height="902" alt="Label portal" src="https://github.com/user-attachments/assets/825c26f1-b12d-4119-9696-1e15386d97ac" /># Use Case 2: Protecting Finance Department Data and Information from Unauthorized Access and Data Breaches
 ## Microsoft Solution: Microsoft 365 Purview ( Under "Information Protection" & "DLP")  
 
 ## Author
@@ -90,16 +90,21 @@ SIT Successfully Created
 
 1. Navigate to **Information Protection → Labels**
 2. Click **+ Create Label**
-3. Name: "Confidential – Finance Only"
-4. Configure:
+<img width="1908" height="902" alt="Label portal" src="https://github.com/user-attachments/assets/5b8911cd-319b-4f46-9870-d53b0083b0c3" />
+
+4. Name: "Confidential – Finance Only"
+5. Configure:
    - Encryption: Enable
    - Access: Finance Department only
    - Content marking (optional)
+<img width="1919" height="907" alt="Label Details" src="https://github.com/user-attachments/assets/ddbc946d-2d74-4485-98e8-c4464fab85cb" />
+<img width="1918" height="916" alt="Label Scope" src="https://github.com/user-attachments/assets/4ec2d197-c93c-4a28-99ed-11cd9d85a706" />
+Label Configuration
+<img width="1919" height="846" alt="Label Items2" src="https://github.com/user-attachments/assets/ad8c6342-df44-4cbf-b25f-a44fe8177be0" />
+<img width="1919" height="914" alt="Label Content Marking" src="https://github.com/user-attachments/assets/196a2e37-72ee-460a-af5b-e76e45334316" />
 
-5. Publish label
-
-📸 Screenshot 5: Label Configuration  
-📸 Screenshot 6: Label Publishing Policy  
+ Publish label
+<img width="1917" height="918" alt="Sensitivity label created" src="https://github.com/user-attachments/assets/458d6b1e-7b9b-4437-8467-3757dfae81d4" />
 
 ---
 
@@ -107,11 +112,14 @@ SIT Successfully Created
 
 1. Go to **Information Protection → Auto-labeling**
 2. Create a new policy
-3. Select:
+<img width="1891" height="760" alt="Auto Label Policy" src="https://github.com/user-attachments/assets/9efd804d-cd41-4438-93f8-bf78ead4e43b" />
+
+4. Select:
    - Your custom SIT
    - Apply label automatically
 
 📸 Screenshot 7: Auto-Label Policy Setup  
+<img width="1902" height="913" alt="Auto Apply policy" src="https://github.com/user-attachments/assets/b5d37002-7779-48d9-aeb2-dbf73fcf7be6" />
 
 ---
 
