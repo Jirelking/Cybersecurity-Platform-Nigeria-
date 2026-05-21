@@ -143,18 +143,17 @@ Auto Labelling Policy Created
 
 ###  Step 5: Create DLP Policy
 
-1. Go to **Data Loss Prevention → Policies**
+1. Navigate as follows: **Data Loss Prevention → Policies**
 2. Click **Create Policy**
 3. Choose:
-   - Custom policy
-4. Configure:
-   - Condition: Detect SIT
-   - Action:
-     - Block external email sharing
-     - Restrict file sharing
+   Customized Policy
+<img width="1918" height="864" alt="DLP Customized" src="https://github.com/user-attachments/assets/10dd6a9b-4502-44db-b814-5a13a528d852" />
 
-Screenshot 8: DLP Policy Configuration  
-Screenshot 9: Block Email Rule  
+DLP Review 
+<img width="1919" height="914" alt="DLP REVIEW" src="https://github.com/user-attachments/assets/5b7d2a75-9729-4a79-b849-b2829b7a0911" />
+
+New Policy Created
+<img width="1917" height="906" alt="NEW POLICY CREATED" src="https://github.com/user-attachments/assets/a1d58e83-af82-40d8-8b8b-a2edd813e7e4" />
 
 ---
 
