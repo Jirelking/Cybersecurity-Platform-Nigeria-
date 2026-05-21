@@ -157,22 +157,9 @@ New Policy Created
 
 ---
 
-### Step 6: Configure Copilot Restrictions
-
-1. Go to **Data Security Settings**
-2. Apply policies to:
-   - Restrict Copilot access to labeled data
-3. Ensure:
-   - Sensitive data cannot be processed by AI tools
-
- Screenshot 10: Copilot Data Protection Settings  
-
----
-
 ### Step 7: Testing & Validation
 
-- Send test email with BVN → should be blocked   
-- Upload file → should be auto-labeled   
-- Test Copilot prompt → restricted   
+- Send test email with BVN → should be blocked    
+- Test Copilot prompt → Blocked
+<img width="1919" height="885" alt="Copilot Block" src="https://github.com/user-attachments/assets/6596303e-6e72-4017-a593-ff7c0f7ea6fd" />
 
-Screenshot 11: Test Result Evidence  
