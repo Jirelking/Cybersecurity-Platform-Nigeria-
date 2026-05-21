@@ -162,3 +162,22 @@ New Policy Created
 - Test Copilot prompt → Should be Blocked
 <img width="1919" height="885" alt="Copilot Block" src="https://github.com/user-attachments/assets/6596303e-6e72-4017-a593-ff7c0f7ea6fd" />
 
+### Observation
+During the implementation of Microsoft Purview for the Finance Department, several key observations were made:
+
+1. The custom Sensitive Information Types (SIT) successfully detected financial data such as BVN and Croatian IBAN when properly configured with accurate patterns and confidence levels.
+2. Auto-labeling policies effectively applied sensitivity labels to documents and emails containing financial data, reducing the need for manual classification.
+3. The DLP policies reliably prevented the transmission of sensitive data outside the organization, particularly through email and file sharing platforms.
+4. Restrictions applied to Microsoft 365 Copilot helped mitigate the risk of sensitive financial data being processed or exposed through AI-driven interactions.
+
+### Conclusion
+The implementation of Microsoft Purview for the finance use case demonstrates an effective approach to proactive data protection and governance.
+By combining Sensitive Information Types, Sensitivity Labels, and DLP policies, the organization was able to:
+
+1. Automatically identify and classify sensitive financial data
+2. Restrict unauthorized access and sharing
+3. Prevent data leakage across communication channels
+4. Ensure compliance with data protection standards
+
+Additionally, extending protections to AI tools such as Microsoft 365 Copilot highlights a forward-thinking approach to modern cybersecurity challenges.
+Overall, this use case shows that Microsoft Purview is a powerful tool for implementing Zero Trust principles and enhancing an organization’s data security posture, particularly in environments handling critical financial information.
