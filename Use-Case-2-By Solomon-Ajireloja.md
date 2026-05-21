@@ -159,7 +159,6 @@ New Policy Created
 
 ### Step 7: Testing & Validation
 
-- Send test email with BVN → should be blocked    
-- Test Copilot prompt → Blocked
+- Test Copilot prompt → Should be Blocked
 <img width="1919" height="885" alt="Copilot Block" src="https://github.com/user-attachments/assets/6596303e-6e72-4017-a593-ff7c0f7ea6fd" />
 
