@@ -121,6 +121,24 @@ Label Configuration
  Screenshot 7: Auto-Label Policy Setup  
 <img width="1902" height="913" alt="Auto Apply policy" src="https://github.com/user-attachments/assets/b5d37002-7779-48d9-aeb2-dbf73fcf7be6" />
 
+Selected Label
+<img width="1919" height="916" alt="Auto Label Policy 1" src="https://github.com/user-attachments/assets/d5f2d517-1abe-4938-b6a3-8a2e0ddec6da" />
+
+Label to Auto Apply
+<img width="1919" height="910" alt="Auto LAbel" src="https://github.com/user-attachments/assets/b8d7bc6c-2de3-427a-afbb-40d406ce8310" />
+
+New Rules Configuration
+<img width="1918" height="916" alt="Auto  apply configured" src="https://github.com/user-attachments/assets/1989e0c9-d054-46b6-b889-fb9ca078117f" />
+
+Rules Definition
+<img width="1919" height="902" alt="rules" src="https://github.com/user-attachments/assets/b5bf871a-d3fa-4109-84d9-e52d39d13642" />
+
+Auto Labelling Review
+<img width="1919" height="901" alt="Auto Label Review" src="https://github.com/user-attachments/assets/6ddf941f-ec79-4d3d-b65e-666bc04575fa" />
+
+Auto Labelling Policy Created
+<img width="1919" height="916" alt="Auto labelling policy created" src="https://github.com/user-attachments/assets/262f8e75-34af-4847-9710-f7b618fe3fc2" />
+
 ---
 
 ###  Step 5: Create DLP Policy
