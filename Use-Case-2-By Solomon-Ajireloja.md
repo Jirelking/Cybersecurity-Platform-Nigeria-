@@ -1,5 +1,5 @@
 # Use Case 2: Protecting Finance Department Data and Information from Unauthorized Access and Data Breaches
-## Microsoft Solution: Microsoft 365 Purview ( Under "Information Protection" & "DLP")  
+## Microsoft Solution: Microsoft 365 Purview
 
 ## Author
 **Analyst Name:** Solomon Idowu, Ajireloja  
