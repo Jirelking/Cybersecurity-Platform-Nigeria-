@@ -46,14 +46,14 @@ Create custom Sensitive Information Types (SITs) to detect financial data patter
 
 ## Step‑by‑Step Implementation Guide: Microsoft Purview for Finance Data and Information Protection
 
-### ✅ Step 1: Access Microsoft Purview Portal
+###  Step 1: Access Microsoft Purview Portal
 - Navigate to: https://compliance.microsoft.com
 - Log in with admin credentials
 <img width="1912" height="915" alt="Login Page" src="https://github.com/user-attachments/assets/132fa142-b435-4ce0-96fe-2dfc4c677c1a" />
 
 ---
 
-### ✅ Step 2: Create Custom Sensitive Information Type (SIT)
+###  Step 2: Create Custom Sensitive Information Type (SIT)
 
 1. Navigate as follows:  **Data Classification → Sensitive Info Types**
 2. <img width="1917" height="904" alt="SIT Portal" src="https://github.com/user-attachments/assets/2638fbc2-48bb-4924-8c0c-91587894714c" />
@@ -77,7 +77,7 @@ Recommended C
 SIT Successfully Created
 <img width="1912" height="918" alt="SIT Cretaed Successfully" src="https://github.com/user-attachments/assets/270b62f6-b11f-41a6-b6cb-7be46e793238" />
 
-📸 Screenshot 4: SIT Testing Results  
+ Screenshot 4: SIT Testing Results  
 
 <img width="1919" height="916" alt="Upload TestFile" src="https://github.com/user-attachments/assets/0d32315f-4aaa-4e22-9577-8e1aa1a601d3" />
 
@@ -86,7 +86,7 @@ SIT Successfully Created
 <img width="1894" height="864" alt="Croatian Match Result" src="https://github.com/user-attachments/assets/f05e2edf-97a6-4f08-bc2d-522625383ab8" />
 ---
 
-### ✅ Step 3: Create Sensitivity Label
+###  Step 3: Create Sensitivity Label
 
 1. Navigate to **Information Protection → Labels**
 2. Click **+ Create Label**
@@ -108,7 +108,7 @@ Label Configuration
 
 ---
 
-### ✅ Step 4: Configure Auto-Labeling Policy
+###  Step 4: Configure Auto-Labeling Policy
 
 1. Go to **Information Protection → Auto-labeling**
 2. Create a new policy
@@ -118,12 +118,12 @@ Label Configuration
    - Your custom SIT
    - Apply label automatically
 
-📸 Screenshot 7: Auto-Label Policy Setup  
+ Screenshot 7: Auto-Label Policy Setup  
 <img width="1902" height="913" alt="Auto Apply policy" src="https://github.com/user-attachments/assets/b5d37002-7779-48d9-aeb2-dbf73fcf7be6" />
 
 ---
 
-### ✅ Step 5: Create DLP Policy
+###  Step 5: Create DLP Policy
 
 1. Go to **Data Loss Prevention → Policies**
 2. Click **Create Policy**
@@ -135,12 +135,12 @@ Label Configuration
      - Block external email sharing
      - Restrict file sharing
 
-📸 Screenshot 8: DLP Policy Configuration  
-📸 Screenshot 9: Block Email Rule  
+Screenshot 8: DLP Policy Configuration  
+Screenshot 9: Block Email Rule  
 
 ---
 
-### ✅ Step 6: Configure Copilot Restrictions
+### Step 6: Configure Copilot Restrictions
 
 1. Go to **Data Security Settings**
 2. Apply policies to:
@@ -148,14 +148,14 @@ Label Configuration
 3. Ensure:
    - Sensitive data cannot be processed by AI tools
 
-📸 Screenshot 10: Copilot Data Protection Settings  
+ Screenshot 10: Copilot Data Protection Settings  
 
 ---
 
-### ✅ Step 7: Testing & Validation
+### Step 7: Testing & Validation
 
-- Send test email with BVN → should be blocked ✅  
-- Upload file → should be auto-labeled ✅  
-- Test Copilot prompt → restricted ✅  
+- Send test email with BVN → should be blocked   
+- Upload file → should be auto-labeled   
+- Test Copilot prompt → restricted   
 
-📸 Screenshot 11: Test Result Evidence  
+Screenshot 11: Test Result Evidence  
